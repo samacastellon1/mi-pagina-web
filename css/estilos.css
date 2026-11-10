@@ -1,0 +1,41 @@
+/* Estilos base (Modo Día por defecto) */
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f4; 
+            color: #333;
+            text-align: center; 
+            padding: 50px; 
+            transition: background-color 0.5s, color 0.5s; /* Transición suave */
+        }
+        
+        .panel { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            max-width: 400px; 
+            margin: auto; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: background-color 0.5s;
+        }
+
+        /* Clase que aplicaremos con JavaScript para el Modo Noche */
+        .modo-oscuro {
+            background-color: #1a1a1a;
+            color: #f4f4f4;
+        }
+        
+        .modo-oscuro .panel {
+            background-color: #333;
+        }
+
+        button { 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            border: none; 
+            border-radius: 5px; 
+            margin-top: 20px;
+            background-color: #007bff; 
+            color: white;
+        }
+        button:hover { background-color: #0056b3; }
